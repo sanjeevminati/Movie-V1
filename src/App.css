@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  background-color: rgb(92, 89, 89);
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+.header {
+  background-color: rgb(83, 83, 243);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  padding: 14px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 14px;
+  gap: 14px;
+}
+.movie {
+  background-color: rgb(218, 141, 26);
+  color: whitesmoke;
+  border: 1px solid rgb(83, 83, 243);
+  padding: 5px;
+  width: 23%;
+}
+p {
+  color: rgb(14, 13, 13);
+  font-weight: 700;
+  font-size: 25px;
+  text-align: start;
+}
+
+.title {
+  font-size: 35px;
+}
+.movie img {
+  width: 100%;
+}
